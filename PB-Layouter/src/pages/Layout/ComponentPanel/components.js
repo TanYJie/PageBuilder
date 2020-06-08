@@ -1,0 +1,42 @@
+export const components = [
+  {
+    label: '按钮',
+    labelI18n: 'Button',
+    name: 'button',
+    source: 'pageBuilder',
+    width: 100,
+    widthUnit: 'px',
+    height: 30,
+    heightUnit: 'px',
+  },
+  {
+    label: '输入框',
+    labelI18n: 'Input',
+    name: 'input',
+    source: 'pageBuilder',
+    width: 200,
+    widthUnit: 'px',
+    height: 25,
+    heightUnit: 'px',
+  },
+  {
+    label: '选择框',
+    labelI18n: 'Select',
+    name: 'select',
+    source: 'pageBuilder',
+    width: 200,
+    widthUnit: 'px',
+    height: 32,
+    heightUnit: 'px',
+  },
+  {
+    label: '页头',
+    labelI18n: 'PageHeader',
+    name: 'pageHeader',
+    source: 'pageBuilder',
+    width: 750,
+    widthUnit: 'rpx',
+    height: 80,
+    heightUnit: 'px',
+  }
+]

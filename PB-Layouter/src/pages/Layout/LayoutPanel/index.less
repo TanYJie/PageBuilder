@@ -1,0 +1,33 @@
+.layout {
+
+  &Panel {
+    flex-grow: 1;
+    border-right: 2px solid #f0f0f0;
+    padding: 10px;
+  }
+}
+
+.page {
+  position: relative;
+  border: 2px solid #f0f0f0;
+  height: 100%;
+  overflow: hidden;
+
+  &Item {
+
+    &Mask {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      bottom: 1px;
+      right: 1px;
+    }
+
+  }
+}
+
+:global {
+  .ant-card-body {
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,49 @@
+.setting {
+  &Unit {
+    width: 60px;
+  }
+}
+
+.form {
+
+  &Card {
+    margin: 10px 0 !important;
+    font-size: 13px;
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,.16), 0 1px 1px 0 rgba(0,0,0,.12), 0 1px 1px 1px rgba(0,0,0,.09);
+  }
+
+  &Action {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+    &Label {
+      width: 70px;
+      font-size: 13px;
+      text-align: right;
+    }
+
+    &Input {
+      width: 60%;
+    }
+  }
+
+  &Add {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #1890ff;
+  }
+}
+
+:global {
+  .ant-form-item {
+    margin-bottom: 5px;
+  }
+}
